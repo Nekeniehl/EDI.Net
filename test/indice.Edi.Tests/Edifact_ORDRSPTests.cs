@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.IO;
 
 using indice.Edi.Tests.Models;
 
@@ -24,8 +20,6 @@ namespace indice.Edi.Tests
             }
 
 
-            Assert.NotNull(interchange.ListNachricht[0].Referenz_der_Anfrage.Code);
-            Assert.NotNull(interchange.ListNachricht[0].Referenz_der_Anfrage.Referenz_der_Anfragedatum);
         }
 
         [Fact]
